@@ -12,3 +12,10 @@ export const removeItem = makeAction('REMOVE_ITEM')
 function makeAction (type) {
   return ({ dispatch }, ...args) => dispatch(type, ...args)
 }
+
+
+
+// examples
+// export const updateActiveNote = ({ dispatch }, note) => {
+//     dispatch('SET_ACTIVE_NOTE', note)
+// }
